@@ -17,7 +17,6 @@ const AboutSection = styled.section`
     line-height: 1.6;
     text-align: center;
   }
-
 `;
 
 const Header = () => {
