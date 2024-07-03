@@ -17,21 +17,19 @@ const AboutSection = styled.section`
     line-height: 1.6;
     text-align: center;
   }
+
 `;
 
 const Header = () => {
   return (
     <AboutSection>
-      <h2>About Me</h2>
-      <p>
-        Hey there! 👋 I've spent over 3.5 years diving deep into React Native and React JS development, focusing on creating awesome websites and mobile apps. 📱 I've had the pleasure of working on a variety of projects for different clients, from cool startups to small and mid-level companies.
-      </p>
-      <p>
-        My knack lies in seamlessly integrating third-party tools and APIs to make sure everything runs smoothly and users have a great experience. I love building scalable solutions that fit exactly what my clients need, using my skills in front-end development, thoughtful UI/UX design, and making sure everything looks great on any device.
-      </p>
-      <p>
-        My portfolio shows my passion for crafting top-notch work that goes beyond expectations. 🚀 I'm known for hitting deadlines and sticking to budgets, and I thrive in teams where we can tackle challenges and make something amazing together. Let's create something awesome! 💪
-      </p>
+      <div className='inline-block h-12 w-12 red '>
+      <h1>
+        ewfydfeyer
+        ergye
+      </h1>
+
+      </div>
     </AboutSection>
   );
 };
