@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import GlobalStyles from "./Styles/GlobalStyles";
+import { theme } from "./Styles/Theme";
+import Header from "./components/Header";
+import About from "./components/About";
+import WhatIDo from "./components/whatIDO";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Sidebar from "./components/Siderbar";
+import Navbar from "./components/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Header />
+      <div style={{ display: "flex" }}>
+        <Sidebar />
+        <div style={{ flex: 1 }}>
+          <Navbar />
+          <About />
+          <WhatIDo />
+          <Resume />
+          <Portfolio />
+          <Contact />
+        </div>
+      </div>
+      <Contact />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
