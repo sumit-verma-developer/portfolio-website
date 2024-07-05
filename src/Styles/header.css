@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerwrapper {
+  background-color: #002839;
+  padding: 30px;
+  border-radius: 12;
+
+  /* padding-inline-start: 10px;
+  padding-inline-end: 10; */
+}
