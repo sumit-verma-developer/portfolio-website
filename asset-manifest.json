@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sumit-verma-developer/portfolio-website/static/css/main.fc557d4b.css",
+    "main.js": "/sumit-verma-developer/portfolio-website/static/js/main.04670923.js",
+    "static/js/453.aac68abc.chunk.js": "/sumit-verma-developer/portfolio-website/static/js/453.aac68abc.chunk.js",
+    "index.html": "/sumit-verma-developer/portfolio-website/index.html",
+    "main.fc557d4b.css.map": "/sumit-verma-developer/portfolio-website/static/css/main.fc557d4b.css.map",
+    "main.04670923.js.map": "/sumit-verma-developer/portfolio-website/static/js/main.04670923.js.map",
+    "453.aac68abc.chunk.js.map": "/sumit-verma-developer/portfolio-website/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc557d4b.css",
+    "static/js/main.04670923.js"
+  ]
+}
